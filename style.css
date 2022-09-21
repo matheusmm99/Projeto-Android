@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android' ;
+    src: url('../desafio010/pacote/fontes/idroid.otf') format("opentype");
+}
+
+header{
+    background-image: linear-gradient(to bottom,#3DDB84, #136836,  #043D1D);
+    padding: 5px 5px 10px 15px;
+    margin: -10px -8px 0px -8px;  
+    
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+p.id{
+    text-indent: 45px;
+}
+header > p{
+    color: white;
+    text-align: center;
+}
+p.header{
+    margin: 0px;
+}
+a.a:hover{
+    background-size: 2em;
+    background-color: #52ce8abd;
+    color: #185031;
+    border-radius: 3px;
+    transition-duration: 0.7s;
+    border-radius: 5px;
+}
+a.a{
+    display: inline-flex;
+    color: #80ecb1;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+body{
+    background-color: #84E1AD ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+main{
+    background-color: white;
+    margin: auto;
+    min-width: 280px;
+    max-width: 800px;
+    margin: -40px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+}
+main > div > h1{
+    color: #236340;
+    text-align: left;
+    padding: 10px 0px 0px 20px;
+    font-family: 'Android', sans-serif;
+}
+main > div > p{
+    color: black;
+    padding: 20px;
+}
+main > div > h2{
+    font-family: 'Android', sans-serif;
+    padding: 10px 0px 0px 20px;
+    background-image: linear-gradient(to right,#5eeb96, #9ddbb6,#d4e9dc , #ffffff);
+    color: #136836;
+    margin: 10px 80px 0px 12px
+} 
+img{
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+img.pequena{
+    max-width: 350px;
+}
+div#video{
+    display: block;
+    text-align: center;
+    background-color: #136836;
+    padding-bottom: 0px;
+}
+iframe{
+    padding-top: 5px;
+}
+div > h3{
+    background-color: #136836;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 35px;
+    
+}
+div#final{
+    background-color: #93e4b7;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.24);
+}
+div > ul{
+    margin-right: 50px;
+    margin-left: 20px;
+}
+div#ul{
+    display: inline-flex; 
+}
+li::before{
+    margin-right: 7px;
+    content: '✓';
+    color: black;
+    font-weight: 900;
+}
+p#fim{
+    background-color: #043D1D;
+    color: white;
+    text-align: center;
+}
+a.b::after{
+    content: '🔗';
+}
+a.b{
+    text-decoration: none;
+    color: #2b8852;
+    font-weight: 700;
+    background-color: #5eeb96;
+}
