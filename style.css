@@ -49,7 +49,6 @@ body{
 }
 main{
     background-color: white;
-    margin: auto;
     min-width: 280px;
     max-width: 800px;
     margin: -40px auto 0px auto;
@@ -88,6 +87,8 @@ div#video{
 }
 iframe{
     padding-top: 5px;
+    width: 100%;
+    height: 400px;
 }
 div > h3{
     background-color: #136836;
@@ -104,12 +105,16 @@ div#final{
     border-radius: 20px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.24);
 }
-div > ul{
-    margin-right: 50px;
-    margin-left: 20px;
+ ul{
+    display: inline-table;
+    margin: auto;
 }
-div#ul{
-    display: inline-flex; 
+li{
+    font-size: 15px;
+    font-weight: 550;
+    margin: auto;
+    text-align: justify;
+    
 }
 li::before{
     margin-right: 7px;
