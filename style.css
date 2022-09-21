@@ -84,6 +84,7 @@ div#video{
     text-align: center;
     background-color: #136836;
     padding-bottom: 0px;
+    margin: auto;
 }
 iframe{
     padding-top: 5px;
